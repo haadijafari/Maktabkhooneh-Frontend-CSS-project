@@ -1,0 +1,115 @@
+body {
+  background-color: #a20409;
+  background-image: url("src/cyber-hacker-attack-background-skull-free-vector.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* -webkit-filter: drop-shadow(-5px 5px 5px #000);
+  filter: drop-shadow(-5px 5px 5px #000); */
+  background-size: cover;
+  background-position-y: center;
+  margin: 0;
+}
+
+#main {
+  position: absolute;
+  top: 100%;
+}
+/* About */
+#about {
+  margin-right: 1%;
+  border-radius: 50px 15px;
+  text-align: center;
+  background-color: #de0909;
+  width: 15%;
+  padding: 3%;
+  float: right;
+  top: 100px;
+}
+
+/* Main texts */
+#content-container {
+  margin: 1%;
+  margin-top: 0;
+  float: right;
+  width: 60%;
+}
+
+#content-container div {
+  background-color: #a21420;
+  margin: 5%;
+  margin-top: 0;
+  padding: 5%;
+  text-align: center;
+}
+
+/* side bar */
+#side-bar ul {
+  margin: 1%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 15%;
+  background-color: #3d0e14;
+}
+#side-bar ul li a {
+  display: block;
+  color: #f96161;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+#side-bar ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* NavBar */
+#NavBar ul {
+  opacity: 75%;
+  z-index: 100;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#NavBar ul li a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#NavBar ul li a:hover {
+  background: #ddd;
+  color: black;
+}
+#NavBar :hover {
+  opacity: 100%;
+}
+
+
+/* Footer */
+#Footer {
+  width: 100%;
+  background-color: #ff8c00;
+  position: absolute;
+  bottom: 0;
+  color: black;
+  margin-top: 10;
+}
+
+
+/* scroll to top */
+#scroll-container{
+  z-index: 99999;
+  position: fixed;
+  width: 5px;
+  height: 5px;
+}
