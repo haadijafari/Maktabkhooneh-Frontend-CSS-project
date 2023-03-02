@@ -11,6 +11,8 @@ body {
 }
 
 #main {
+  padding-top: 30px;
+  background-color: rgba(0, 0, 0, 0.664);
   position: absolute;
   top: 100%;
 }
@@ -35,6 +37,7 @@ body {
 }
 
 #content-container div {
+  border-radius: 25px;
   background-color: #a21420;
   margin: 5%;
   margin-top: 0;
