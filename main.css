@@ -152,7 +152,7 @@ footer div:hover{
 /* Title */
 #Title{
   color: white;
-  position: absolute;
+  position: fixed;
   text-align: center;
   margin-top: 300px;
   font-size: 900%;
