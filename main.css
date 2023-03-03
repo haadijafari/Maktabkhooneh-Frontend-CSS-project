@@ -44,6 +44,12 @@ body {
   padding: 5%;
   text-align: center;
 }
+#content-container div:hover{
+  color: white;
+  background-color: rgb(41, 41, 41);
+  animation: color_change 1s;
+  transform: scale(1.1);
+}
 
 /* side bar */
 #side-bar ul {
@@ -100,14 +106,30 @@ body {
 /* Footer */
 #Footer {
   height: 20px;
+  width: 80%;
   padding: 1%;
-  width: 98%;
   text-align: center;
   background-color: #ff8c00;
   position: absolute;
   bottom: 0;
+  left: 0;
+  right: 0;
   color: black;
-  margin-top: 10;
+  transform: translateY(50%);
+  margin: auto;
+}
+#Footer:hover{
+  color: white;
+  background-color: rgb(41, 41, 41);
+  animation: color_change 1s;
+
+}
+footer div{
+  text-align: center;
+  border: 1px solid red;
+}
+footer div:hover{
+  transform: scale(1.1);
 }
 
 /* scroll to top */
