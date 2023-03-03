@@ -27,6 +27,11 @@ body {
   float: right;
   top: 100px;
 }
+#about:hover{
+  color: rgb(0, 0, 0);
+  background-color: rgb(192, 192, 192);
+  animation: color_change 4s;
+}
 
 /* Main texts */
 #content-container {
