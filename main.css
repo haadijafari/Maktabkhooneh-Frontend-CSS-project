@@ -10,6 +10,22 @@ body {
   margin: 0;
 }
 
+/* to content */
+#btn-to-content{
+  background-color: rgba(100, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+#to-content{
+  filter: invert(100%);
+  height: 50px;
+  transform: rotate(180deg);
+}
+
 #main {
   padding-top: 30px;
   background-color: rgba(0, 0, 0, 0.664);
@@ -31,6 +47,8 @@ body {
   color: rgb(0, 0, 0);
   background-color: rgb(192, 192, 192);
   animation: color_change 4s;
+  transform:scale(1.1);
+  transform-origin:right center;
 }
 
 /* Main texts */
@@ -131,7 +149,6 @@ body {
 }
 footer div{
   text-align: center;
-  border: 1px solid red;
 }
 footer div:hover{
   transform: scale(1.1);
