@@ -5,7 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Hacker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="main.css"
+    />
   </head>
 
   <body>
@@ -13,13 +18,12 @@
 
     <div id="NavBar">
       <ul>
-        <li><a href="">Contact</a></li>
-        <li><a href="">About</a></li>
+        <li><a href="#modal-contact">Contact</a></li>
+        <li><a href="#modal-about">About</a></li>
       </ul>
     </div>
 
     <div id="Title">Hack</div>
-
 
     <div id="btn-to-content">
       <a href="#main"><img id="to-content" src="src/to-top.png" /></a>
@@ -104,6 +108,23 @@
 
     <div id="scroll-container">
       <a href="#Top"><img id="scroll-img" src="src/to-top.png" /></a>
+    </div>
+
+    <div id="modal-about" class="modal">
+      <div class="modal__window">
+        <a class="modal__close" href="#">X</a>
+        <h2>Please to meet you!</h2>
+        <p>My name is hadi and I am glad that you are visiting mypage</p>
+      </div>
+    </div>
+
+    <div id="modal-contact" class="modal">
+      <div class="modal__window">
+        <a class="modal__close" href="#">X</a>
+        <h2>Contact</h2>
+        <p>Phone: 09xx xxx xx xx</p>
+        <p>Email: some.example@gmail.com</p>
+      </div>
     </div>
   </body>
 </html>

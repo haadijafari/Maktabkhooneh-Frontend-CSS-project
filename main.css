@@ -3,8 +3,6 @@ body {
   background-image: url("src/cyber-hacker-attack-background-skull-free-vector.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  /* -webkit-filter: drop-shadow(-5px 5px 5px #000);
-  filter: drop-shadow(-5px 5px 5px #000); */
   background-size: cover;
   background-position-y: center;
   margin: 0;
@@ -174,4 +172,41 @@ footer div:hover{
   margin-top: 300px;
   font-size: 900%;
   width: 100%;
+}
+
+
+/* modal */
+.modal {
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal__window {
+  border-radius: 3%;
+  position: relative;
+  background-color: #a20409;
+  padding: 4em 2em;
+}
+
+.modal__close {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+#modal-about:not(:target) {
+  visibility: hidden;
+  opacity: 0;
+}
+#modal-contact:not(:target) {
+  visibility: hidden;
+  opacity: 0;
 }
